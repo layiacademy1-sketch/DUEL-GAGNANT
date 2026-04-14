@@ -62,10 +62,15 @@ export default function Events() {
                   {event.description}
                 </p>
                 
-                <button className="w-full py-4 bg-white/10 hover:bg-gold hover:text-black text-white font-bold uppercase tracking-widest text-xs rounded-xl transition-all flex items-center justify-center group/btn">
+                <a 
+                  href={`https://wa.me/33622853442?text=${encodeURIComponent("Bonjour, j'aimerais avoir plus de renseignement sur cette evenement.")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full py-4 bg-white/10 hover:bg-gold hover:text-black text-white font-bold uppercase tracking-widest text-xs rounded-xl transition-all flex items-center justify-center group/btn"
+                >
                   Plus de renseignements
                   <ArrowRight size={16} className="ml-2 group-hover/btn:translate-x-1 transition-transform" />
-                </button>
+                </a>
               </div>
             </motion.div>
           ))}
