@@ -26,7 +26,7 @@ export default function Social() {
           </p>
           
           <a
-            href="https://snapchat.com"
+            href="https://snapchat.com/t/PDLbzFRL"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center px-10 py-5 bg-yellow-400 text-black font-black uppercase tracking-widest rounded-full hover:scale-105 transition-transform active:scale-95"
